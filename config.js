@@ -28,7 +28,7 @@ config = {
     },
 
     staging: {
-        url: 'https://fedes-dev.herokuapp.com',
+        url: 'https://test-fdd.herokuapp.com/',
         mail: {
             transport: 'SMTP',
             options: {
