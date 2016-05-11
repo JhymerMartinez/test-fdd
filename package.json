@@ -20,6 +20,7 @@
   "main": "./core/index",
   "scripts": {
     "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
+    "postinstall": "gulp seed",
     "start": "node index",
     "test": "grunt validate --verbose"
   },
