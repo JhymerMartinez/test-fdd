@@ -481,6 +481,11 @@
       "from": "content-type@1.0.1",
       "resolved": "https://registry.npmjs.org/content-type/-/content-type-1.0.1.tgz"
     },
+    "cors": {
+      "version": "2.7.1",
+      "from": "cors@2.7.1",
+      "resolved": "https://registry.npmjs.org/cors/-/cors-2.7.1.tgz"
+    },
     "cookie-session": {
       "version": "1.2.0",
       "from": "cookie-session@1.2.0",
