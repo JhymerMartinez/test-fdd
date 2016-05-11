@@ -1,1 +1,1 @@
-web: npm start --staging
+web: npm start --production
