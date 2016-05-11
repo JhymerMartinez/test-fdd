@@ -5,7 +5,7 @@
 
 var path = require('path'),
     config;
-
+console.log('>> PUERTO: ', process.env.PORT);
 config = {
     // ### Production
     // When running Ghost in the wild, use the production environment.
@@ -28,7 +28,7 @@ config = {
     },
 
     staging: {
-        url: 'https://test-fdd.herokuapp.com/',
+        url: 'https://test-fdd.herokuapp.com',
         mail: {
             transport: 'SMTP',
             options: {
