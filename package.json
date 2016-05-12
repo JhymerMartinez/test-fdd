@@ -19,7 +19,7 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\"",
+    "preinstall": "npm install semver && node -e \"require('./core/server/utils/startup-check.js').nodeVersion()\" && npm install -g gulp@3.9.1",
     "postinstall": "gulp seed",
     "start": "node index",
     "test": "grunt validate --verbose"
